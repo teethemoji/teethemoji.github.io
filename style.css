@@ -1,1 +1,5 @@
-
+html {
+    scroll-behavior: smooth;
+    background-color: seashell;
+    font-family: 'Open Sans', sans-serif;
+}
