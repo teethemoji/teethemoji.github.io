@@ -3,3 +3,43 @@ html {
     background-color: seashell;
     font-family: 'Open Sans', sans-serif;
 }
+
+span {
+    font-weight: 550;
+    border : 0;
+    padding : 1px 8px;
+    line-height: 2.5;
+    color : white;
+    border-radius: 8px;
+}
+
+span.program {
+    background-color: #3b61df;
+}
+
+span.skill {
+    background-color: #e4a700;
+}
+
+span.tools {
+    background-color: #5a5a5a;
+}
+
+p.used {
+    color : rgb(41, 41, 41);
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+section.project {
+    display: inline-block;
+    max-width: 450px;
+    min-width: 350px;
+    margin : auto;
+    padding: 10px;
+    box-shadow: none;
+    border : solid 1px;
+    border-radius: 5px;
+    border-color : #bebebe;
+    background-color: #ffffff;
+}
