@@ -56,3 +56,16 @@ section.project:first-of-type {
 section.project:last-of-type {
     margin-bottom: 3rem;
 }
+
+.project::after {
+    position: absolute;
+    bottom: 0;  
+    height: 100%;
+    width: 100%;
+    content: "";
+    background:
+        linear-gradient(to top,
+       #ffffff 12%, 
+       #ffffff00 88%);
+    pointer-events: none;
+}
