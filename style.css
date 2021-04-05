@@ -32,14 +32,26 @@ p.used {
 }
 
 section.project {
+    position: relative;
+    overflow: hidden;
     display: inline-block;
-    max-width: 450px;
-    min-width: 350px;
+    max-width: 400px;
+    min-width: 240px;
+    height: 440px;
     margin : auto;
     padding: 10px;
-    box-shadow: none;
-    border : solid 1px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
     border-radius: 5px;
     border-color : #bebebe;
     background-color: #ffffff;
+    margin: 2rem;
+}
+
+section.project:first-of-type {
+    margin-top: 3rem;
+}
+
+section.project:last-of-type {
+    margin-bottom: 3rem;
 }
