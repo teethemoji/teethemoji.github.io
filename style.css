@@ -5,6 +5,7 @@ html {
 }
 
 span {
+    background-color: #131313;
     font-weight: 550;
     border : 0;
     padding : 1px 8px;
