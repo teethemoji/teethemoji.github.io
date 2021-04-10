@@ -1,7 +1,76 @@
 html {
     scroll-behavior: smooth;
-    background-color: seashell;
     font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    color:#131313;
+    background-color: #EFEFEF;
+}
+
+menu {
+    align-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    margin: 0;
+    padding: 0 24px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+p {
+    padding : 0 1.5rem 0 1.5rem;
+}
+
+.round {
+    border-radius: 50%;
+}    
+
+h1 {
+    max-width: 100px;
+    margin : auto;
+    padding: 8px 1px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 2px 1px #0000ff26;
+    border-color : #bebebe;
+    background-color: #ffffff;
+}
+
+#name {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.tag {
+    padding : 10px;
+}
+
+main {
+    align-content: center;
+    max-width: 250px;
+    margin : auto;
+    margin-bottom: 60px;
+    padding: 10px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    /* #ffffff80; */
+    box-shadow: 4px 3px 2px 1px #13131330;
+    /* box-shadow: 4px 6px 2px 1px #0000ff26; */
+
+    border-radius: 5px;
+    background-color: #ffffff25;
+
+}
+
+img {
+    padding: 1.5rem 3rem;
+    display: inline-block;
+    position: static;
+}
+
+ul {
+    display: inline-block;
 }
 
 span {
@@ -27,9 +96,21 @@ span.tools {
 }
 
 p.used {
-    color : rgb(41, 41, 41);
+    background-color: #dadada;
+    color : #313131;
     font-weight: 600;
-    text-decoration-line: underline;
+}
+
+.date {
+    display: inline-block;
+    font-size: 0.8rem;
+    color :#686868;
+    background-color: white;
+}
+
+section {
+    vertical-align: top;
+    align-items: center;
 }
 
 section.project {
@@ -55,6 +136,32 @@ section.project:first-of-type {
 
 section.project:last-of-type {
     margin-bottom: 3rem;
+}
+
+h2 {
+    font-weight: 800;
+    text-align: center;
+    border : 0;
+    padding : 1px 8px;
+    line-height: 2.5;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding : 1.5rem 0 1.5rem 0;
+    color:slategrey;
+}
+
+a {
+    color : blue;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: #3b61df;
 }
 
 .project::after {
